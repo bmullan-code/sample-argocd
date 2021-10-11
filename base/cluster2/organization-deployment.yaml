@@ -22,6 +22,8 @@ spec:
         ports:
         - containerPort: 8080
         env:
+        - name: GLOBAL_DOMAIN_NAME
+          value: "iso.domain"
         - name: MONGO_HOST
           valueFrom:
             configMapKeyRef:
