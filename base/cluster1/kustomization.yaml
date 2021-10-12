@@ -8,8 +8,8 @@ resources:
 - mongodb-deployment.yaml
 
 namespace: iso
-images:
 
+images:
 - name: employee-image
   newName: harbor.tanzu.be/library/iso-employee-service
-  newTag: b23.20211012.112257
+  newTag: dfa3131f548f21ad610bfd269263ba42561fdf13
