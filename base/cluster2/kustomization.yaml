@@ -11,8 +11,8 @@ namespace: iso
 
 images:
 - name: department-image
-  newName: harbor.tanzu.be/library/iso-department-service
-  newTag: dfa3131f548f21ad610bfd269263ba42561fdf13
+  newName: harbor.services.e2e.jg-aws.com/tkg-demo/iso-department-service
+  newTag: b1.20211019.001407
 - name: organization-image
-  newName: harbor.tanzu.be/library/iso-organization-service
-  newTag: dfa3131f548f21ad610bfd269263ba42561fdf13
+  newName: harbor.services.e2e.jg-aws.com/tkg-demo/iso-organization-service
+  newTag: b1.20211019.001413

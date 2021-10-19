@@ -11,5 +11,5 @@ namespace: iso
 
 images:
 - name: employee-image
-  newName: harbor.tanzu.be/library/iso-employee-service
-  newTag: dfa3131f548f21ad610bfd269263ba42561fdf13
+  newName: harbor.services.e2e.jg-aws.com/tkg-demo/iso-organization-service
+  newTag: b1.20211019.001413
