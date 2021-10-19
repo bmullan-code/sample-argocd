@@ -1,0 +1,15 @@
+apiVersion: kpack.io/v1alpha2
+kind: Image
+metadata:
+  name: iso-department-service
+  namespace: default
+spec:
+  builder:
+    kind: ClusterBuilder
+    name: default
+  source:
+    git:
+      revision: kubernetes
+      url: git@github.com:bmullan-pivotal/sample-spring-microservices-new.git
+    subPath: department-service
+  tag: harbor.services.e2e.jg-aws.com/tkg-demo/iso-department-service
