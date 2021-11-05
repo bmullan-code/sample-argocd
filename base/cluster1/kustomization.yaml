@@ -10,7 +10,6 @@ resources:
 namespace: iso
 
 images:
-- name: employee-image
+- digest: sha256:f550a9ade62955c61aba08ec165986db87584fb058843533d439bbd5a045dbe0
+  name: employee-image
   newName: harbor.services.demo.jg-aws.com/tkg-demo/iso-employee-service
-  newTag: b1.20211104.170152
-  
