@@ -12,7 +12,7 @@ namespace: iso
 images:
 - name: department-image
   newName: harbor.services.demo.jg-aws.com/tkg-demo/iso-department-service
-  newTag: b1.20211104.170151
+  newTag: b2.20211104.212350
 - name: organization-image
   newName: harbor.services.demo.jg-aws.com/tkg-demo/iso-organization-service
-  newTag: b1.20211104.170151
+  newTag: b2.20211104.212354
