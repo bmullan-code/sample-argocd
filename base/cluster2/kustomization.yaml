@@ -10,9 +10,9 @@ resources:
 namespace: iso
 
 images:
-- name: department-image
+- digest: sha256:bb46e68c1a074d73620f97007d2618bb813ebaab8a6e24ea06b30a885f2423d2
+  name: department-image
   newName: harbor.services.demo.jg-aws.com/tkg-demo/iso-department-service
-  newTag: b2.20211104.212350
-- name: organization-image
+- digest: sha256:088119756c867e5b31bab0ea547fc6384255ed25d50bebba58cd6bbfd1d560f7
+  name: organization-image
   newName: harbor.services.demo.jg-aws.com/tkg-demo/iso-organization-service
-  newTag: b2.20211104.212354
