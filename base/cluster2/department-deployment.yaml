@@ -45,6 +45,12 @@ spec:
             secretKeyRef:
               name: mongodb
               key: database-password
+        - name: WAVEFRONT_API_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: wavefront-api-token
+              key: key
+
 ---
 apiVersion: v1
 kind: Service
